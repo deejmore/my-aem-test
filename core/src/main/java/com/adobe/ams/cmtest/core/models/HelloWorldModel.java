@@ -13,7 +13,7 @@
  *  See the License for the specific language governing permissions and
  *  limitations under the License.
  */
-package com.adobe.ams.kddi.cmtest.core.models;
+package com.adobe.ams.cmtest.core.models;
 
 import javax.annotation.PostConstruct;
 import javax.inject.Inject;
