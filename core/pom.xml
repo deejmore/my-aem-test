@@ -19,14 +19,14 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>com.adobe.ams</groupId>
-        <artifactId>ams-cm-test</artifactId>
+        <artifactId>my-aem-test</artifactId>
         <version>1.0-SNAPSHOT</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
-    <artifactId>ams-cm-test.core</artifactId>
+    <artifactId>my-aem-test.core</artifactId>
     <packaging>bundle</packaging>
     <name>AMS CloudManager Test - Core</name>
-    <description>Core bundle for ams-cm-test</description>
+    <description>Core bundle for my-aem-test</description>
     <properties>
         <maven.compiler.release>11</maven.compiler.release>
     </properties>

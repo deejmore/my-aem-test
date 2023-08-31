@@ -23,7 +23,7 @@
     <!-- ====================================================================== -->
     <parent>
         <groupId>com.adobe.ams</groupId>
-        <artifactId>ams-cm-test</artifactId>
+        <artifactId>my-aem-test</artifactId>
         <version>1.0-SNAPSHOT</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
@@ -31,10 +31,10 @@
     <!-- ====================================================================== -->
     <!-- P R O J E C T  D E S C R I P T I O N                                   -->
     <!-- ====================================================================== -->
-    <artifactId>ams-cm-test.ui.apps</artifactId>
+    <artifactId>my-aem-test.ui.apps</artifactId>
     <packaging>content-package</packaging>
     <name>AMS CloudManager Test Package</name>
-    <description>Apps package for ams-cm-test</description>
+    <description>Apps package for my-aem-test</description>
 
     <!-- <scm>
         <connection></connection>
@@ -100,8 +100,8 @@
                     <embeddeds>
                         <embedded>
                             <groupId>com.adobe.ams</groupId>
-                            <artifactId>ams-cm-test.core</artifactId>
-                            <target>/apps/ams-cm-test/install</target>
+                            <artifactId>my-aem-test.core</artifactId>
+                            <target>/apps/my-aem-test/install</target>
                         </embedded>
                     </embeddeds>
                 </configuration>
@@ -130,7 +130,7 @@
     <dependencies>
         <dependency>
             <groupId>com.adobe.ams</groupId>
-            <artifactId>ams-cm-test.core</artifactId>
+            <artifactId>my-aem-test.core</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
 
